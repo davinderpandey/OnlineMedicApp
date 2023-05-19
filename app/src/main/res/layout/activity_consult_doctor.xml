@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clipToPadding="false"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileAvatar"
+                android:scaleType="centerCrop"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/doc"
+                android:background="@drawable/person"
+                android:contentDescription="@string/image"/>
+
+            <TextView
+                android:id="@+id/tvFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:textSize="13sp"
+                android:text="@string/dean"
+                android:textColor="@color/black"
+                android:autofillHints="@string/first_name" />
+
+            <TextView
+                android:id="@+id/tvLastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:text="@string/winchester"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:autofillHints="@string/last_name" />
+
+            <TextView
+                android:id="@+id/tvMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:enabled="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:hint="@string/mobile"
+                android:text="@string/_91_123456789"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:autofillHints="@string/mobile" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:enabled="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:hint="@string/mobile"
+                android:text="@string/dr_winchester_is_a_physician_in_uk_with_9_years_experience_in_general_and_internal_respiratory_medicine_dr_winchester_has_worked_in_aiims_uk_and_max_superspeciality_hospital_previously_dr_winchester_is_gold_medallist_in_his_md_currently_practising_online_and_visiting_consultant_in_3_hospitals_all_over_london_dr_winchester_has_good_experience_in_treating_thyroid_diabetes_b_p_tuberculosis_asthma_bronchitis_fever_chronic_cough_breathing_problems_sleep_study_with_a_fare_number_of_satisfied_patients"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:autofillHints="@string/mobile" />
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/consultButton"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_solid"
+                android:text="@string/consult"
+                android:textColor="@color/white"
+                app:spinning_bar_color="@color/white"
+                app:spinning_bar_width="4dp"
+                app:spinning_bar_padding="2dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

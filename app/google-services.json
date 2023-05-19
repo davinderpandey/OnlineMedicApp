@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "206512708614",
+    "project_id": "online-medic-app",
+    "storage_bucket": "online-medic-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206512708614:android:aba21148f927676d797787",
+        "android_client_info": {
+          "package_name": "com.app.onlinemedic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206512708614-c4hlu4o3fdirr73fiplbaul1eouvop4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.onlinemedic",
+            "certificate_hash": "08066d08457187fa05221600320be8e7d9631400"
+          }
+        },
+        {
+          "client_id": "206512708614-1omsm08o9m86cqb8l8vva9k8alkaphdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ3IO3_Hk7ueEQpGqnFAbaapjvAACyAjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206512708614-1omsm08o9m86cqb8l8vva9k8alkaphdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

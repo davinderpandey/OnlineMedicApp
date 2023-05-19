@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:clipToPadding="false"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileAvatar"
+                android:scaleType="centerCrop"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/person"
+                android:background="@drawable/person"
+                android:contentDescription="@string/image"/>
+
+            <EditText
+                android:id="@+id/profileFirstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:hint="@string/first_name"
+                android:textSize="13sp"
+                android:inputType="text"
+                android:autofillHints="@string/first_name" />
+
+            <EditText
+                android:id="@+id/profileLastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:hint="@string/last_name"
+                android:textSize="13sp"
+                android:inputType="text"
+                android:autofillHints="@string/last_name" />
+
+            <EditText
+                android:id="@+id/profileMobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:enabled="false"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wire_drawable"
+                android:drawablePadding="10dp"
+                android:hint="@string/mobile"
+                android:text="7878787"
+                android:textSize="13sp"
+                android:inputType="number"
+                android:autofillHints="@string/mobile" />
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/updateButton"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_solid"
+                android:text="@string/update"
+                android:textColor="@color/white"
+                app:spinning_bar_color="@color/white"
+                app:spinning_bar_width="4dp"
+                app:spinning_bar_padding="2dp"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OnlineMedicApp.iml" filepath="$PROJECT_DIR$/.idea/modules/OnlineMedicApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/OnlineMedicApp.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.main.iml" filepath="$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/filepicker/OnlineMedicApp.filepicker.unitTest.iml" />
+    </modules>
+  </component>
+</project>
